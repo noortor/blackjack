@@ -1,4 +1,15 @@
 #BlueJ class context
 comment0.target=Game
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Game\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment1.params=
+comment1.target=Game()
+comment2.params=
+comment2.target=void\ startGame()
+comment3.params=
+comment3.target=void\ turn()
+comment4.params=
+comment4.target=void\ giveInfo()
+comment5.params=
+comment5.target=void\ determineWinner()
+comment6.params=
+comment6.target=void\ endGame()
+numComments=7

@@ -1,12 +1,15 @@
 #BlueJ class context
 comment0.target=Card
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Card\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=vl\ st\ rk
 comment1.target=Card(int,\ java.lang.String,\ java.lang.String)
 comment2.params=
 comment2.target=int\ getValue()
-comment3.params=
-comment3.target=java.lang.String\ getSuit()
+comment3.params=vl
+comment3.target=void\ setValue(int)
 comment4.params=
-comment4.target=java.lang.String\ getRank()
-numComments=5
+comment4.target=java.lang.String\ getSuit()
+comment5.params=
+comment5.target=java.lang.String\ getRank()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

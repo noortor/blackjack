@@ -1,10 +1,3 @@
-
-/**
- * Write a description of class Card here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Card 
 {
     private int value;
@@ -17,13 +10,25 @@ public class Card
         suit = st;
         rank = rk;
     }
+    //returns card value
     public int getValue(){
         return value;
     }
+    //sets new value of card, used for aces
+    public void setValue(int vl){
+        value = vl;
+    }
+
+    //returns card suit
     public String getSuit(){
         return suit;
     }
+    //returns card rank
     public String getRank(){
         return rank;
+    }
+    //gives info on card
+    public String toString(){
+        return rank + " of "+ suit;
     }
 }
